@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\AOCLibrary\AOCLibrary.csproj" />
-    <ProjectReference Include="..\AOCLibrary\AOCLibrary.csproj" />
   </ItemGroup>
 
 </Project>
