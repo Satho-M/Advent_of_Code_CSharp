@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "Day01.csproj", "{DC888EB2-C211-4F0D-AB91-1D3E190AB43C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2021", "2021", "{5A3EA8DE-8218-4421-A9D2-DD8C679F9995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOCLibrary", "..\AOCLibrary\AOCLibrary.csproj", "{494DAB5E-1805-4D6B-ADDA-7B472521697C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC888EB2-C211-4F0D-AB91-1D3E190AB43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC888EB2-C211-4F0D-AB91-1D3E190AB43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC888EB2-C211-4F0D-AB91-1D3E190AB43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC888EB2-C211-4F0D-AB91-1D3E190AB43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494DAB5E-1805-4D6B-ADDA-7B472521697C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494DAB5E-1805-4D6B-ADDA-7B472521697C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494DAB5E-1805-4D6B-ADDA-7B472521697C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494DAB5E-1805-4D6B-ADDA-7B472521697C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC888EB2-C211-4F0D-AB91-1D3E190AB43C} = {5A3EA8DE-8218-4421-A9D2-DD8C679F9995}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB2DA95D-A782-464C-9BDD-2C1FF7AD4D0F}
+	EndGlobalSection
+EndGlobal
