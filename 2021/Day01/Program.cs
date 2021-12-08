@@ -1,4 +1,4 @@
-﻿using Day_01;
+﻿using Day01;
 
 Solutions solutions = new Solutions();
 

@@ -9,6 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01", "2021\Day01\Day01.c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOCLibrary", "AOCLibrary\AOCLibrary.csproj", "{990CA112-2B41-415E-9958-C84831223FD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02", "2021\Day02\Day02.csproj", "{2BE0CFD6-EBDD-462F-A3F6-8333A066D4D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{990CA112-2B41-415E-9958-C84831223FD6} = {990CA112-2B41-415E-9958-C84831223FD6}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +28,17 @@ Global
 		{990CA112-2B41-415E-9958-C84831223FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990CA112-2B41-415E-9958-C84831223FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990CA112-2B41-415E-9958-C84831223FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE0CFD6-EBDD-462F-A3F6-8333A066D4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE0CFD6-EBDD-462F-A3F6-8333A066D4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE0CFD6-EBDD-462F-A3F6-8333A066D4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE0CFD6-EBDD-462F-A3F6-8333A066D4D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2B14059A-88E9-4575-8CE4-7BFF4CE799C0} = {5A3EA8DE-8218-4421-A9D2-DD8C679F9995}
+		{2BE0CFD6-EBDD-462F-A3F6-8333A066D4D8} = {5A3EA8DE-8218-4421-A9D2-DD8C679F9995}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB2DA95D-A782-464C-9BDD-2C1FF7AD4D0F}

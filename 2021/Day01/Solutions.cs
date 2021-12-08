@@ -1,6 +1,6 @@
 ﻿using Advent_of_Code_Library;
 
-namespace Day_01
+namespace Day01
 {
     class Solutions
     {
